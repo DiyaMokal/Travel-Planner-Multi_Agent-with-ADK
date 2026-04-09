@@ -1,7 +1,7 @@
 from google.adk.agents import Agent
 from travel_planner.supporting_agents import travel_inspiration_agent
 
-LLM = "gemini-3.1-pro-preview"
+LLM = "gemini-2.5-flash"
 
 root_agent = Agent(
     model = LLM,
