@@ -2,7 +2,7 @@ from google.adk.tools.google_search_tool import google_search
 from google.adk.agents import Agent
 from google.adk.tools.agent_tool import AgentTool
 
-LLM = "gemini-3.1-pro-preview"
+LLM = "gemini-2.5-flash"
 
 _search_agent = Agent(
     model=LLM,
